@@ -70,7 +70,7 @@ export function SQLConsole({ expectedQuery, tableName, onQuerySuccess, onQueryEr
           <Textarea
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="SELECT * FROM memorias_casa..."
+            placeholder="SELECT * FROM ..."
             className="font-mono bg-muted/50 border-border/50 focus:border-primary/50 min-h-24"
             onKeyDown={(e) => {
               if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {

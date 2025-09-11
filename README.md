@@ -1,58 +1,44 @@
-# Welcome to your Lovable project
+# ECO - Juego Paranormal Interactivo
 
-## Project info
+## Descripción del juego
 
-**URL**: https://lovable.dev/projects/c460049d-32a9-4dfd-b613-e04e0eef9c62
+ECO es un juego web interactivo donde cada nivel representa una leyenda o lugar icónico de México.  
+El jugador debe resolver **retos en forma de consultas SQL** para desbloquear fragmentos de la historia y avanzar al siguiente escenario.  
 
-## How can I edit this code?
+**Dificultad:** Progresiva
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Historia
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c460049d-32a9-4dfd-b613-e04e0eef9c62) and start prompting.
+Eres **Ezequiel Delacroix**, un investigador especializado en sucesos paranormales. Una noche recibes un informe inquietante: en un viejo laboratorio abandonado, los vecinos aseguran escuchar voces y ruidos metálicos.  
 
-Changes made via Lovable will be committed automatically to this repo.
+Al entrar, encuentras un **artefacto misterioso**, una esfera metálica que vibra y emite un zumbido grave. Al tocarla, una luz cegadora te envuelve. Cuando recuperas la conciencia, el laboratorio ha desaparecido y ahora estás atrapado en distintos escenarios ligados a antiguas leyendas mexicanas.  
 
-**Use your preferred IDE**
+El artefacto se comunica contigo mediante **consultas SQL**, y solo resolviendo estos acertijos podrás desvelar la verdad detrás de cada recuerdo.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Niveles / Escenarios
 
-Follow these steps:
+### 1. La Casa de las Brujas (Guanajuato)
+- Paredes agrietadas y susurros de una niña.
+- Debes descifrar memorias ocultas para liberar su alma.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. La Xtabay (Yucatán)
+- Selva húmeda, ilusiones seductoras y peligro mortal.
+- Usa tus habilidades para distinguir lo real de lo falso.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 3. La Isla de las Muñecas (Xochimilco)
+- Canales oscuros, muñecas observándote.
+- Enfrenta el miedo y descubre los secretos más oscuros del artefacto.
 
-# Step 3: Install the necessary dependencies.
-npm i
+**Final:**  
+Aunque logres apagar el artefacto, tu conciencia queda atrapada en su interior, destinada a vagar eternamente entre recuerdos malditos.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## Tecnologías utilizadas
 
 - Vite
 - TypeScript
@@ -60,14 +46,26 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/c460049d-32a9-4dfd-b613-e04e0eef9c62) and click on Share -> Publish.
+## Instalación y ejecución
 
-## Can I connect a custom domain to my Lovable project?
+Para trabajar localmente:
 
-Yes, you can!
+```bash
+# Clona el repositorio
+git clone <YOUR_GIT_URL>
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Entra al proyecto
+cd <YOUR_PROJECT_NAME>
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Instala dependencias
+npm i
+
+# Ejecuta en modo desarrollo
+npm run dev
+# Accede en http://localhost:8080
+```
+## Ver el juego en la web
+Puede abrir y jugar el juego directamente desde cualquier navegador moderno.  
+Abre el juego en tu navegador usando este enlace seguro: [pendiente](pendiente)
