@@ -29,8 +29,8 @@ function initializeDatabase() {
   // Tabla ilusiones_xtabay (Nivel 2)  
   db.run(`CREATE TABLE IF NOT EXISTS ilusiones_xtabay (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    testimonio TEXT NOT NULL,
-    verdadero BOOLEAN NOT NULL,
+    nombre_persona TEXT NOT NULL,
+    testimonio BOOLEAN NOT NULL,
     detalle TEXT NOT NULL
   )`);
 
@@ -99,8 +99,8 @@ function insertInitialData() {
       // Insertar ilusiones_xtabay
       ilusionesXtabay.forEach(ilusion => {
         db.run(
-          "INSERT INTO ilusiones_xtabay (testimonio, verdadero, detalle) VALUES (?, ?, ?)",
-          [ilusion.testimonio, ilusion.verdadero, ilusion.detalle]
+          "INSERT INTO ilusiones_xtabay (nombre_persona, testimonio, detalle) VALUES (?, ?, ?)",
+          [ilusion.nombre_persona, ilusion.testimonio, ilusion.detalle]
         );
       });
 
