@@ -59,12 +59,12 @@ function insertInitialData() {
 
   // Datos Nivel 2: La Xtabay
   const ilusionesXtabay = [
-    { testimonio: "Juan Pérez", verdadero: 0, detalle: "Fue seducido por la Xtabay" },
-    { testimonio: "Carlos López", verdadero: 1, detalle: "Logró resistir sus encantos" },
-    { testimonio: "Miguel Torres", verdadero: 0, detalle: "Perdió la razón por una noche" },
-    { testimonio: "Antonio Ruiz", verdadero: 1, detalle: "Reconoció las señales de peligro" },
-    { testimonio: "Rafael Santos", verdadero: 0, detalle: "Siguió la luz engañosa" },
-    { testimonio: "David Moreno", verdadero: 1, detalle: "Escapó antes del amanecer" }
+    { nombre_persona: "Juan Pérez", testimonio: false, detalle: "Fue seducido por la Xtabay" },
+    { nombre_persona: "Carlos López", testimonio: true, detalle: "Logró resistir sus encantos" },
+    { nombre_persona: "Miguel Torres", testimonio: false, detalle: "Perdió la razón por una noche" },
+    { nombre_persona: "Antonio Ruiz", testimonio: true, detalle: "Reconoció las señales de peligro" },
+    { nombre_persona: "Rafael Santos", testimonio: false, detalle: "Siguió la luz engañosa" },
+    { nombre_persona: "David Moreno", testimonio: true, detalle: "Escapó antes del amanecer" }
   ];
 
   // Datos Nivel 3: Isla de las Muñecas
